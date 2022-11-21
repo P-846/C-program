@@ -1,4 +1,5 @@
 #include<stdio.h>
+void add();
 main()
 {
   int i,fact=1,n;
@@ -9,5 +10,15 @@ main()
     fact=fact*1;
   }
   printf("\n fact=%d",fact);
-}  
+  add();
+}
+void add()
+{
+  int a,b,c;
+  printf("\n enter a and b=");
+  scanf("%d%d",&a,&b);
+  c=a+b;
+  printf("a+b=",c);
+}
+ 
    
