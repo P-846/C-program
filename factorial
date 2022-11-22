@@ -1,5 +1,6 @@
 #include<stdio.h>
 void add();
+void sub();
 main()
 {
   int i,fact=1,n;
@@ -20,5 +21,12 @@ void add()
   c=a+b;
   printf("a+b=",c);
 }
- 
+void sub()
+{
+  int a,b,c;
+  printf("\n enter a and b=");
+  scanf("%d%d",&a,&b);
+  c=a-b;
+  printf("a-b=",c);
+ }
    
